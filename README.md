@@ -1,6 +1,6 @@
 
 <p align="center" style="text-align: center">
-   <img src="screenshot.png" width="40%"><br/>
+   <img src="screenshot.png"><br/>
 </p>
 
 # Tuxedo Keyboard UI
@@ -20,4 +20,12 @@ go get github.com/wailsapp/wails/cmd/wails
 go get github.com/leaanthony/tuxedo-keyboard-ui
 cd tuxedo-keyboard-ui
 wails build
+```
+
+## Running
+
+As this application updates sysfs, it requires root privileges:
+
+```
+sudo ./tuxkeyui
 ```
