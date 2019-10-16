@@ -21,3 +21,11 @@ go get github.com/leaanthony/tuxedo-keyboard-ui
 cd tuxedo-keyboard-ui
 wails build
 ```
+
+## Running
+
+As this application updates sysfs, it requires root privileges:
+
+```
+sudo ./tuxkeyui
+```
