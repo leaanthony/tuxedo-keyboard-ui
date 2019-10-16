@@ -1,6 +1,6 @@
 
 <p align="center" style="text-align: center">
-   <img src="screenshot.png" width="40%"><br/>
+   <img src="screenshot.png"><br/>
 </p>
 
 # Tuxedo Keyboard UI
