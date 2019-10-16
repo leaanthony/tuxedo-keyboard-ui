@@ -19,8 +19,20 @@ func updateKeyboardLights(r, g, b uint8, a float32) {
 		fmt.Println(err.Error())
 	}
 
-	// Set the Keyboard colour
+	// Set the Keyboard colour left
 	err = tuxedokeyboard.SetKeyboardColourLeft(r, g, b)
+	if err != nil {
+		fmt.Println(err.Error())
+	}
+
+	// Set the Keyboard colour center
+	err = tuxedokeyboard.SetKeyboardColourCenter(r, g, b)
+	if err != nil {
+		fmt.Println(err.Error())
+	}
+
+	// Set the Keyboard colour right
+	err = tuxedokeyboard.SetKeyboardColourRight(r, g, b)
 	if err != nil {
 		fmt.Println(err.Error())
 	}
